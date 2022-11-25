@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap');
+
+*{
+    overflow: visible;
+}
+
+body{
+    background: url(./img/bg\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.p-t{
+    padding-top: 150px;
+}
+
+.form{
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 900px;
+    text-shadow: 2px 2px 8px #000000;
+    z-index: 2;
+    font-family: Fredoka one;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    transition: all 2s ease-in-out;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.form h1{
+    font-size: 40px;
+    margin-bottom: 80px;
+    transition: all 2s ease-in-out;
+    margin-left: 40px;
+}
+
+.s-h{
+height: 1000px;
+}
+
+section{
+    content: '';
+    height: 600px;
+    width: 900px;
+    border: solid 2px salmon;
+    margin-left: 339px;
+    margin-top: 90px;
+    position: absolute;
+    top: -20px;
+    z-index: 1;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border-radius: 20px;
+    background: url(./img/bg\ img.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    filter: blur(10px);
+}
+
+.gap{
+    margin-left: 50px;
+}
+
+.p-m{
+    margin-top: 1000px;
+}
+
+p{
+    color: white;
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 1300px;
+}
+
+.int{
+    background: transparent;
+    border: none;
+    font-size: large;
+    border-bottom: solid 1px white;
+    outline: none;
+    width: 250px;
+    color: white;
+}
+
+.k{
+    margin-bottom: 70px;
+}
+
+.j{
+    font-size: 40px;
+}
+
+.flex{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.flot-l{
+    float: left;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.rotate-90{
+    transform: rotate(90deg);
+    transition: all 2s ease-in-out;
+}
+
+.data-Entry{
+    padding-top: 50px;
+    transition: all 2s ease-in-out;
+
+}
+
+.data-Entry h1{
+    margin-left: 170px;
+}
+
+.submit{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    float: right;
+}
+
+.submit:hover{
+    background: linear-gradient(90deg, #92FE9D 0%, #00C9FF 100%);
+}
+
+.k input:not(:nth-child(1)){
+    margin-top: 0px;
+}
+
+.k input:not(:nth-child(6)){
+    margin-top: 0px;
+}
+
+.qq{
+
+}
+
+.ata{
+
+}
+
+.hide{
+    display: none;
+    opacity: 0;
+    transition: all 2s ease-in-out;
+}
+
+@media only screen and (max-width:700px){
+    .form{
+        height: 800px;
+        padding-top:150px ;
+    }
+
+    body{
+        height: 1000px;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+    section{
+        height: 900px;
+        top: -50px;
+        width: 350px;
+        left: -330px;
+        filter:blur(4px);
+        background: url(./img/bg\ img.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    form .s-o{
+        font-size: 30px;
+        margin-bottom: -5px;
+    }
+
+    .k{
+        flex-direction: column;
+        padding-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    .gap{
+        margin-left: 10px;
+    }
+
+    .int{
+        width: 180px;
+    }
+
+    .k input:not(:nth-child(1)){
+        margin-top: 80px;
+    }
+
+    .k input:not(:nth-child(6)){
+        margin-top: 80px;
+    }
+
+    .mark-b label{
+        display: none;
+    }
+
+    .mark-b{
+        margin-top: 30px;
+    }
+
+    .data-Entry h1{
+        margin-left: 20px;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    
+    .zz{
+        margin-top: -100px;
+    }
+
+    .submit{
+        margin-top: 100px;
+    }
+
+    .p-t{
+padding-top: 300px;
+    }
+
+    .op{
+        height: 1300px;
+    }
+      
+
+    .s-h{
+height: 500px;
+    }
+
+    #p{
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        z-index: 5;
+        padding-right: 1200px;
+        margin-top:900px;
+    }
+}
