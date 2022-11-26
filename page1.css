@@ -2,6 +2,7 @@
 
 *{
     overflow: visible;
+    
 }
 
 body{
@@ -20,6 +21,13 @@ body{
 
 }
 
+*::placeholder{
+    color: #c9bfbf;
+    text-shadow: 6px 0px 4px rgba(101, 101, 140, 1);
+}
+
+
+
 .p-t{
     padding-top: 150px;
 }
@@ -29,17 +37,19 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     width: 900px;
-    text-shadow: 2px 2px 8px #000000;
+    /* text-shadow: 2px 2px 8px #000000; */
+    text-shadow: 6px 0px 4px rgba(0, 0, 0, 1);
     z-index: 2;
     font-family: Fredoka one;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    /* box-shadow: -2px 2px 25px 15px rgba(255, 255, 255, 0.38); */
     font-size: larger;
     transition: all 2s ease-in-out;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: -2px 2px 57px 18px rgba(0,0,0,0.38);
 }
 
 .form h1{

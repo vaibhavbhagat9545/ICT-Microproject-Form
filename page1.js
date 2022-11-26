@@ -17,15 +17,7 @@ rotate = () =>{
 }
 
 
-// const scriptURL = 'https://script.google.com/macros/s/AKfycbxzUlnN-xphXoFdGNVtQHaicTPyEgMuJv8lX9yvg4QbX06_RYeTv3NOhzQWGXIf2CBkmQ/exec'
-// const form = document.forms['google-sheet']
 
-// form.addEventListener('submit',e => {
-//     e.preventDefault()
-//     fetch(scriptURL, {method: 'POST' , body: new FormData(form)})
-//     .then(Response => alert("You Information is Successfully Collected 👍"))
-//     .catch(error => console.error('Error' , error.message))
-// })
 
 
 

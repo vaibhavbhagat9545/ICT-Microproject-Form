@@ -12,13 +12,13 @@
     <div class="container" id="container">
         <div class="form">
             <form id="form" method="POST" name="google-sheet"> 
-                <h1 class="s-o">Srudents Marks Data <span class="s-h1"> Record (IF1I) <span></h1>
+                <h1 class="s-o">Students Marks Data <span class="s-h1"> Record (IF1I) <span></h1>
 <div class="ata">
                 <div class="k">
                 <label for="">Full Name : </label>
                 <input title="Full Name" class="int" name="Name" required type="text">
               <span class="qq">  <label class="gap" for="">Email ID : </label>
-                <input title="Email ID" type="email" name="Email ID" class="int" required name="" id="">
+                <input title="Email ID" placeholder="example@gmail.com" type="email" name="Email ID" class="int email" required name="" id="">
                 </span>
             </div>
 
@@ -26,13 +26,13 @@
                     <label for="">Roll No : </label>
                     <input autocomplete="off" title="Roll No" class="int" required name="Roll Number" type="number">
                    <span class="qq"><label class="gap" for="">Enroll No : </label>
-                    <input title="Enroll No" type="number" class="int" name="Enroll Number" required name="" id="">
+                    <input title="Enroll No" type="tel" placeholder="10 Digits" pattern="[0-9]{10}" class="int enroll_no" name="Enroll Number" required name="" id="">
                     </span>
                     </div>
 
                     <div class="k">
                         <label for="">Mobile No : </label>
-                        <input title="Mobile No" class="int" name="Mobile Number" required type="number">
+                        <input title="Mobile No" placeholder="eg. 1234567890" pattern="[0-9]{10}" class="int mob" name="Mobile Number" required type="tel">
                         </div>
 
                         
@@ -46,16 +46,16 @@
 <div class="zz">
                         <div class="k">
                             <label for="">Maths : </label>
-                            <input title="Maths" class="int" name="Maths" min="00" max="20" required type="number">
+                            <input placeholder="Less tahn or equal to 20" title="Maths" class="int" name="Maths" min="00" max="20" required type="number">
                             <label class="gap" for="">English : </label>
-                            <input title="English" name="English" type="number" min="00" max="20" class="int" required name="" id="">
+                            <input placeholder="Less tahn or equal to 20" title="English" name="English" type="number" min="00" max="20" class="int" required name="" id="">
                             </div>
 
                             <div class="k">
                                 <label for="">Physics : </label>
-                                <input title="Physics" name="Physics" class="int" min="00" max="10" required type="number">
+                                <input placeholder="Less tahn or equal to 10" title="Physics" name="Physics" class="int" min="00" max="10" required type="number">
                                 <label class="gap" for="">Chemistry : </label>
-                                <input title="Chemistry" name="Chemistry" type="number" class="int" max="10" min="00" required name="" id="">
+                                <input placeholder="Less tahn or equal to 10" title="Chemistry" name="Chemistry" type="number" class="int" max="10" min="00" required name="" id="">
                                 </div>
                                 </div>
                                 <input type="submit" name="submit"  class="submit" value="Submit">
