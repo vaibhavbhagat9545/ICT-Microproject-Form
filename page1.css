@@ -23,7 +23,7 @@ body{
 
 *::placeholder{
     color: #c9bfbf;
-    text-shadow: 6px 0px 4px rgba(101, 101, 140, 1);
+    text-shadow: 6px 0px 4px rgb(101, 101, 140);
 }
 
 
@@ -210,6 +210,12 @@ input[type=number]::-webkit-outer-spin-button{
         background-size: cover;
     }
 
+    .data-Entry input::placeholder{
+        color: transparent;
+        text-shadow: 6px 0px 4px rgba(101, 101, 140, 0);
+     
+    }
+
     form .s-o{
         font-size: 30px;
         margin-bottom: -5px;
@@ -226,7 +232,7 @@ input[type=number]::-webkit-outer-spin-button{
     }
 
     .int{
-        width: 235px;
+        width: max-content;
 
     }
 
@@ -250,6 +256,7 @@ input[type=number]::-webkit-outer-spin-button{
         margin-left: 20px;
         font-size: 30px;
         margin-top: 50px;
+        /* flex-direction: column; */
     }
     
     .zz{
@@ -276,9 +283,13 @@ height: 500px;
     #p{
         position: absolute;
         width: 100%;
-        opacity: 0;
         z-index: 5;
         padding-right: 1200px;
         margin-top:900px;
+    }
+
+    .mar-t{
+        top: 180px;
+        
     }
 }

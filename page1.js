@@ -11,15 +11,10 @@ rotate = () =>{
     mark.classList.toggle("hide");
     container.classList.toggle("p-t");
     section.classList.toggle("s-h");
-    p.classList.toggle("p-m");
+    p.classList.toggle("mar-t");
     form.classList.toggle("op");
 
 }
-
-
-
-
-
 
             const scriptURL = 'https://script.google.com/macros/s/AKfycbxE4gIJ5fdEeh7cWDw-acylS__XVkyGOAgKD8lgpDufGrzvcgt59XjdInCYBX8zJuSe/exec'
             const form = document.forms['google-sheet']
